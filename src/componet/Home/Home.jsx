@@ -15,20 +15,25 @@ const [selectActore, setselectActore] = useState([]);
   },[]);
 
   const handelSeletactor = (actor) => {
-  
-   setselectActore([...selectActore, actor]);
+   const isExist = selectActore.find((item) =>item===actor)
+   if(isExist){
+    return alert('alredy booken')
+   }else{
+    setselectActore([...selectActore, actor]);
+   }
+
   }
-console.log(selectActore)
+
     return (
         <div>
              <h1 className='text-3xl text-center font-bold m-12'>Course Registration</h1>
           <div className='flex'>
-           <div className='ml-8 w-3/4 grid grid-cols-3 gap-3'>
+           <div className='ml-6 w-3/4 grid grid-cols-3 gap-3'>
           {
             AllActore.map((actor,i) =>(
               <div key={i} className='card w-82 h-96 mb-7 bg-gray-100 shadow-xl'>
               <div>
-                <img className='w-full h-48' src="https://i.ibb.co/Rvc67Cr/ar.jpg" alt="" />
+                <img className='w-full h-48' src={actor.image} alt="" />
                 <h1 className='text-center text-2xl font-semibold mt-2'>{actor.name}</h1>
                 <p className='mt-3'>{actor.polash}</p>
                  <div className='flex justify-between mt-2'>
@@ -45,8 +50,7 @@ console.log(selectActore)
           }
            </div>
             <div>
-              <h1 className='text-2xl text-blue-400'>Credit Hour Remaining {0} hr</h1>
-              <hr></hr>
+              <Cart selectActore={selectActore}></Cart>
             </div>
           </div>
         </div>
