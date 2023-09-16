@@ -16,9 +16,17 @@ const [selectActore, setselectActore] = useState([]);
 
   const handelSeletactor = (actor) => {
    const isExist = selectActore.find((item) =>item===actor)
+
+   let count = 0;
+
    if(isExist){
     return alert('alredy booken')
    }else{
+   
+    selectActore.forEach((item) =>{
+      count = count + item;
+    });
+  console.log(count)
     setselectActore([...selectActore, actor]);
    }
 
