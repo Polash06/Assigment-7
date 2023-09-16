@@ -1,0 +1,77 @@
+[
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Introduction to Programming",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 1500,
+        "hours": "1hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "ntroduction to Algorithms",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 25000,
+        "hours": "10hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Introduction to C++ for DSA",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 10000,
+        "hours": "5hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Basic Data Structures",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 35000,
+        "hours": "5hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Introduction to OOP Python",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 18000,
+        "hours": "2hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Software Engineering",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 23000,
+        "hours": "5hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "AWS, Cloud Computing",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 35000,
+        "hours": "5hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Database (MySQL)",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 19000,
+        "hours": "5hr"
+       
+    },
+    {
+        "image": "https://i.ibb.co/Rvc67Cr/ar.jpg",
+        "name": "Problem-Solving Part",
+        "polash":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "Price": 23000,
+        "icon": "<i class=fa-solid fa-atom-simple></i>",
+        "hours": "2hr"
+       
+    }
+  
+   
+]
